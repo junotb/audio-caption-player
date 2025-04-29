@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import clsx from "clsx";
+import Link from "next/link";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,16 +21,19 @@ export default function Header() {
       </button>
       <div
         className={clsx(
-          "absolute top-16 right-0 flex flex-col justify-center items-center gap-4 px-4 py-2 bg-white rounded-bl-2xl",
+          "absolute top-16 right-0 flex flex-col justify-center items-center gap-4 px-4 py-2 bg-white rounded-bl-2xl overflow-hidden transition-all duration-300 ease-in-out",
           {
             "max-h-16 opacity-100": isMenuOpen,
             "max-h-0 opacity-0": !isMenuOpen,
           }
         )}
       >
-        <button className="text-sm text-gray-500 cursor-pointer">
-          <span>JQuery 버전으로 이동</span>
-        </button>
+        <Link
+          href="/mp3-vtt-player-jquery"
+          className="text-sm text-gray-500 cursor-pointer"
+        >
+          JQuery 버전으로 이동
+        </Link>
       </div>
     </div>
   );
