@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# private assets
+/public/*.mp4
+/public/*.json
+/public/*.m4a
+/public/*.vtt
