@@ -2,12 +2,11 @@ import AudioCaptionPlayer from "@/component/AudioCaptionPlayer";
 import Header from "@/component/Header";
 
 const {
-  NEXT_PUBLIC_M4A_URL: audioUrl = "",
-  NEXT_PUBLIC_TRANSCRIPT_URL: captionUrl = "",
+  NEXT_PUBLIC_AUDIO_URL: audioUrl = "",
+  NEXT_PUBLIC_CAPTION_URL: captionUrl = "",
 } = process.env;
 
-export default function Home() {
-
+export default function Home() { 
   return (
     <div className="flex flex-col justify-center items-center w-full h-full">
       <main className="relative flex flex-col mx-auto w-full md:w-160 h-full">

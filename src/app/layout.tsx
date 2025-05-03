@@ -15,8 +15,8 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Audio Subtitle Sync Player - MP3 with VTT Support",
-  description: "A module that synchronizes MP3 audio playback with VTT subtitle rendering. Displays subtitles in real time based on audio progress. Supports both Next.js and legacy HTML environments.",
+  title: "Audio Caption Player - Audio with Caption Support",
+  description: "A module that synchronizes audio playback with VTT subtitle rendering. Displays subtitles in real time based on audio progress. Supports both Next.js and legacy HTML environments.",
 };
 
 export default function RootLayout({
