@@ -60,7 +60,7 @@ export default function AudioCaptionPlayer({ audioUrl, captionUrl }: AudioCaptio
   
   // 오디오 또는 자막 파일이 없을 경우 오류 메시지 반환
   if (!audioUrl || !captionUrl) {
-    return <ErrorMessage message="오디오 또는 자막 파일을 찾을 수 없습니다.<br />환경 변수를 다시 확인해 주세요." />
+    return <ErrorMessage message="오디오 또는 자막 파일을 찾을 수 없습니다. 환경 변수를 다시 확인해 주세요." />
   }
 
   // 오류 메시지 반환
