@@ -2,10 +2,6 @@
 
 오디오 재생과 자막을 동기화하는 플레이어입니다.
 
-## 데모
-
-![Audio-Caption 플레이어 데모](public/audio-caption-player-demo.gif)
-
 ## 주요 기능
 
 - 🎵 오디오와 자막 동기화 재생
@@ -48,3 +44,7 @@ audio-caption-player/
 3. NEXT_PUBLIC_NAME - 사용자명
 
 플레이어는 자동으로 오디오 재생과 자막을 동기화하며, 현재 자막을 하이라이트하고 보기 좋은 위치로 스크롤합니다.
+
+## 데모
+
+![Audio-Caption 플레이어 데모](public/audio-caption-player-demo.gif)
