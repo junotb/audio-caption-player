@@ -31,7 +31,7 @@ export default function Header() {
         aria-label="메뉴"
       >
         <Link
-          href="/audio-caption-player-jquery"
+          href="/audio-caption-player-jquery.html"
           className="flex items-center text-sm text-gray-500 cursor-pointer"
         >
           jQuery 버전으로 이동
